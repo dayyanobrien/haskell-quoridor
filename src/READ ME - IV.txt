@@ -1,0 +1,9 @@
+For IV)
+
+- Added 2-4 player mode selection
+- Better error handling, e.g trying to do a boardSize != 9 for Reed
+- A* search in utility
+- Better utility function
+
+lowFirst -> lowFirst is ideal for normal minimax as you want to minimise the previous players utility each round
+highFirst -> lowFirst is ideal for AB minimax

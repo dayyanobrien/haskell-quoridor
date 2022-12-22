@@ -1,0 +1,18 @@
+*** PART III (10 pt) ***
+
+Is it a good idea to start the game with the Reed opening?
+
+There is a variety of ways I went about for testing the Reed opening, they involved, for both the starting and second
+player, Reed v Minimax, Reed v Human and Human v Human (where one user plays as Reed). The variety of these allowed a 
+strong analysis of this opening in both general theory and by actually putting the AI's against each other. 
+
+I believe the idea behind Reed is such that it allows you good support from behind while also limiting the paths for the 
+opposing player in order to reach the end which is significantly helpful in Quoridor, however with my analysis below you 
+can see that this wouldn't be effective against an advanced player.
+
+Overall upon testing this seems like a bad opening as both the first and second player. Where reed starts you can simply 
+push forward and because the gap is just one block it will be very difficult for the enemy to block you off, and if they 
+do manage to block you off they will have significantly less walls while you are also closer to the winning positions. 
+While when you are the second player you are the second player you can push forward and have some walls that only make it
+more difficult for the enemy player to get toward their own winning positions. Through my minimax testing, I found that 
+the enemy player consistently beat the Reed player, regardless of the order. 
